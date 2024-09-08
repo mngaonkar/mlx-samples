@@ -22,4 +22,4 @@ net = NeuralNet(100, 1)
 print(net)
 
 params = net.parameters()
-print(params['layers']['layers'][0]['weight'].shape)
+print(params['layers']['layers'][4]['weight'].shape)

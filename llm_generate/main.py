@@ -1,6 +1,7 @@
 from mlx_lm import generate, load
 
-checkpoint = "microsoft/phi-2"
+# checkpoint = "microsoft/phi-2"
+checkpoint = "google/gemma-2-2b"
 
 def main():
     model, tokenizer = load(path_or_hf_repo=checkpoint)
